@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+/*Хеадер страницы*/
+header {
+  background: url("../images/backheader.jpg");
+  background-size: cover;
+}
+
+a {
+  text-decoration: none;
+  color: #7a7a7a;
+}
+
+ul {
+  margin: 0;
+  padding: 15px;
+  padding-top: 30px;
+  float: right;
+}
+
+ul li {
+  display: inline;
+  margin: 25px;
+}
+
+.clear {
+  clear: both;
+}
+
+.logo {
+  float: left;
+  margin: 10px;
+  margin-left: 35px;
+}
+
+.login {
+  float: right;
+  margin: 20px;
+  margin-bottom: 15px;
+  background: #de6d6e;
+  padding: 20px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 5px;
+  color: white;
+}
+
+.upMenu {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.welcome {
+  text-align: center;
+  color: white;
+  padding-bottom: 50px;
+}
+
+h1 {
+  margin: 0;
+  margin-top: 250px;
+  font-size: 3em;
+}
+
+/*Основной контент сайта*/
+.caption {
+  text-align: center;
+}
+
+.caption > p {
+  padding-left: 90px;
+  padding-right: 90px;
+}
+
+.rounds {text-align: center;}
+
+.round {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  margin: 3.8%;
+  border-radius: 50%;
+}
+
+#orange {background: #e48f23;}
+#blue {background: #4eb9f4;}
+#red {background: #ff5649;}
+#green {background: #6fc125;}
+
+.imagesInRound {
+  width: 80px;
+  height: 80px;
+  margin: 22%;
+  margin-top: 18%;
+}
+
+.imagesInRound span {
+  display: inline-block;
+  margin: 0;
+  margin-top: 5px;
+  color: white;
+}
