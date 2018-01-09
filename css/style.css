@@ -77,10 +77,10 @@ h1 {
   border-radius: 50%;
 }
 
-#orange {background: #e48f23;}
-#blue {background: #4eb9f4;}
-#red {background: #ff5649;}
-#green {background: #6fc125;}
+.orange {background: #e48f23;}
+.blue {background: #4eb9f4;}
+.red {background: #ff5649;}
+.green {background: #6fc125;}
 
 .imagesInRound {
   width: 80px;
