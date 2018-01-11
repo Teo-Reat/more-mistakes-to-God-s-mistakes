@@ -1,7 +1,9 @@
 body {
   margin: 0;
   font-family: sans-serif;
+  color: grey;
 }
+
 /*Хеадер страницы*/
 header {
   background: url("../images/backheader.jpg");
@@ -13,20 +15,18 @@ a {
   color: #7a7a7a;
 }
 
-ul {
+nav > ul {
   margin: 0;
   padding: 30px 15px 15px;
   float: right;
 }
 
-ul li {
+nav > ul li {
   display: inline;
   margin: 25px;
 }
 
-.clear {
-  clear: both;
-}
+.clear {clear: both;}
 
 .logo {
   float: left;
@@ -42,9 +42,7 @@ ul li {
   color: white;
 }
 
-.upMenu {
-  background-color: rgba(255, 255, 255, 0.8);
-}
+.upMenu {background-color: rgba(255, 255, 255, 0.8);}
 
 .welcome {
   text-align: center;
@@ -63,33 +61,91 @@ h1 {
 }
 
 .caption > p {
-  padding-left: 90px;
-  padding-right: 90px;
+  width: 827px;
+  margin: 0 auto;
 }
 
 .rounds {text-align: center;}
 
 .round {
   display: inline-block;
-  width: 150px;
-  height: 150px;
-  margin: 3.8%;
+  margin: 3%;
   border-radius: 50%;
 }
 
-.orange {background: #e48f23;}
-.blue {background: #4eb9f4;}
-.red {background: #ff5649;}
-.green {background: #6fc125;}
+.round:hover {opacity: 0.2;}
 
-.imagesInRound {
-  width: 80px;
-  height: 80px;
-  margin: 18% 22% 22%;
+.textInRounds {
+  opacity: 0;
+  width: 150px;
+  position: absolute;
+  padding: 40px 10px;
+  color: white;
 }
 
-.imagesInRound span {
-  display: inline-block;
-  margin: 5px 0 0;
+.textInRounds:hover {opacity: 1;}
+
+.news {
+  width: 1024px;
+  margin: 0 auto;
+  padding-left: 64px;
+}
+
+.oneNew {margin: 80px 0;}
+
+.oneNewPicture {
+  float: left;
+}
+
+.oneNewText > p {
+  padding: 0 15px;
+  margin: 0;
+  overflow: hidden;
+  text-align: justify;
+}
+
+.oneNewText > h2 {
+  margin: 0 10px;
+  padding: 0 15px 10px 15px;
+  overflow: hidden;
+}
+
+/*Подвал сайта валяется здесь*/
+footer {
+  background: #272727;
   color: white;
+  min-height: 200px;
+}
+
+.footer {
+  width: 1024px;
+  margin: 0 auto;
+  padding-left: 64px;
+}
+
+.subMenu {
+  width: 748px;
+  min-height: 100px;
+  float: left;
+}
+
+.socialNet {
+  width: 276px;
+  background: red;
+  min-height: 100px;
+  float: right;
+}
+
+.subMenu > div {
+  width: 187px;
+  margin: 0;
+  min-height: 90px;
+  float: left;
+}
+
+div > ul {
+  list-style-type: none;
+  text-align: left;
+  padding: 0;
+  margin: 0;
 }
