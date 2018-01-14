@@ -1,0 +1,32 @@
+/*Глобальные настройки*/
+body {
+  margin: 0;
+  font-family: sans-serif;
+  color: black;
+  background: #999;
+}
+
+/*Хеадер страницы 1*/
+.flex {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+  background: pink;
+}
+
+.flex-right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background: green;
+}
+
+ul li {
+  display: inline-block;
+  background: blue;
+}
+
+div {
+  padding: 10px;
+  background: coral;
+}

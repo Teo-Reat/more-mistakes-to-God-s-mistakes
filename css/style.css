@@ -4,6 +4,12 @@ body {
   color: grey;
 }
 
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 /*Хеадер страницы*/
 header {
   background: url("../images/backheader.jpg");
@@ -25,8 +31,6 @@ nav > ul li {
   display: inline;
   margin: 25px;
 }
-
-.clear {clear: both;}
 
 .logo {
   float: left;
@@ -65,12 +69,16 @@ h1 {
   margin: 0 auto;
 }
 
-.rounds {text-align: center;}
+.rounds {
+  text-align: center;
+  width: 1024px;
+  margin: 0 auto;
+}
 
 .round {
   display: inline-block;
-  margin: 3%;
-  border-radius: 50%;
+  margin: 3.5%;
+  /*border-radius: 50%;*/
 }
 
 .round:hover {opacity: 0.2;}
